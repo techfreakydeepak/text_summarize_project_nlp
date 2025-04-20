@@ -1,21 +1,36 @@
-transformers
+# Core NLP + Transformers
 transformers[sentencepiece]
 datasets
 sacrebleu
 rouge_score
+
+# Compression / Data handling
 py7zr
 pandas
 tqdm
 nltk
 PyYAML
-torch ## torch if i used for the office sytem pytorch website
+
+# Torch (Install from official website if needed)
+# pip install torch should work, but avoid using comments inside the file
+torch
+
+# Visualization & Notebook
 matplotlib
 notebook
+
+# AWS & Typing
 boto3
 mypy-boto3-s3
+
+# Config & Utility
 python-box==6.0.2
 ensure==1.0.2
+
+# Web Framework
 fastapi==0.78.0
 uvicorn==0.18.3
 jinja2==3.1.2
--e.
+
+# Local project in editable mode
+-e .
